@@ -1,0 +1,57 @@
+@media (max-width: 550px) {
+    body {
+        width: 100vw;
+        height: auto;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(11, 6rem);
+        gap: 10px;
+    }
+    header {
+        background-color: rgb(55, 5, 102);
+        grid-column: auto/span 3;
+    }
+    .box {
+        background-color: rgb(154, 138, 154);
+        grid-column: 1/2;
+        width: 83%;   
+    }
+    .box1 {
+        background-color: violet;
+        grid-column: 1/2;
+        width: 83%;   
+    }
+    .box2 {
+        background-color: violet;
+        grid-column: 1/2;
+        width: 83%;   
+    }
+    .box3 {
+        background-color: violet;
+        grid-column: 1/2;
+        width: 83%;   
+    }
+    .box4 {
+        background-color: violet;
+        grid-column: 1/2;
+        width: 83%;   
+    }
+    main {
+        grid-column: 2;
+        grid-row: 2/7;
+    }
+    
+    .bigbox {
+        background-color: rgb(247, 164, 178);
+        grid-column: 3/3;
+        grid-row: 2/7;
+        width: 79%;
+        margin-left: auto;
+    }
+    
+    footer {
+        background-color: rgba(224, 195, 151, 0.662);
+        grid-column: auto/span 3;
+    }
+}
