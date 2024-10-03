@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 10px;
+}
+.box1 {
+    background-color: blueviolet;
+    grid-column: 1 / 4;
+}
+.box2 {
+    background-color: blueviolet;
+    grid-column: 4 / 7;
+}
+.box3 {
+    background-color: blueviolet;
+    grid-column: 7 / 10;
+}
+.box4 {
+    background-color: blueviolet;
+    grid-column: 10 / 13;
+}
+.ruta1 {
+    background-color: pink;
+    grid-column: 1 / 5;
+    grid-row: 2 / 9;
+}
+.ruta2 {
+    background-color: pink;
+    grid-column: 5 / 9;
+    grid-row: 2 / 9;
+}
+.ruta3 {
+    background-color: pink;
+    grid-column: 9 / 13;
+    grid-row: 2 / 9;
+}
+footer {
+    background-color: rgb(189, 184, 113);
+    grid-column: 1 / 13;
+    grid-row: 9;
+}

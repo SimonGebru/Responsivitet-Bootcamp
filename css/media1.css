@@ -5,7 +5,7 @@
         display: grid;
         grid-template-columns: 100vw;
         grid-template-rows: repeat(13, 3rem);
-        gap: 6px;
+        gap: 7px;
         padding: 3px;
     }
     header {
